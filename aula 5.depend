@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1724712637 source:c:\users\aluno\documents\aula\aula 02\aula03\aula4\aula 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
