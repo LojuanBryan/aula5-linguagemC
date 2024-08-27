@@ -1,52 +1,53 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include<math.h> // inclui calculos matematicos com o pr√© processador.
 
 /*
-// Escreva um programa que solicita dois numeros inteiros que informa qual È o maior e qual È o menor
+// Escreva um programa que solicita dois numeros inteiros que informa qual √© o maior e qual √© o menor
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
     int numero1, numero2;
 
-    printf("Digite um n˙mero: ", numero1);
+    printf("Digite um n√∫mero: ", numero1);
     scanf("%d", &numero1);
 
-    printf("Digite outro n˙mero: ", numero2);
+    printf("Digite outro n√∫mero: ", numero2);
     scanf("%d", &numero2);
 
     if (numero1 > numero2)
     {
-        printf("%d È maior do que %d",numero1, numero2);
+        printf("%d √© maior do que %d",numero1, numero2);
     }
 
     else
     {
-        printf("%d È menor do que %d",numero1, numero2);
+        printf("%d √© menor do que %d",numero1, numero2);
 
     }
     return 0;
 }
 */
 
-// Escreva um programa que solicita um numero inteiro e responde dizendo se numero È par ou impar
+// Escreva um programa que solicita um numero inteiro e responde dizendo se numero √© par ou impar
 /*
 int main ()
 {
     setlocale(LC_ALL, "Portuguese");
 
     int numero;
-    printf("Insira um n˙mero inteiro: ");
+    printf("Insira um n√∫mero inteiro: ");
     scanf("%d", &numero);
 
     if (numero % 2 == 0)
     {
-        printf("O numero digitado È par", numero);
+        printf("O numero digitado √© par", numero);
     }
     else
     {
-        printf("O numero digitado È impar", numero);
+        printf("O numero digitado √© impar", numero);
     }
 
     return 0;
@@ -69,8 +70,8 @@ int main ()
     c = 2*pi* raio;
     area = pi * raio*raio;
 
-    printf("A circunferencia do circulo È: %.2f \n", c);
-    printf("A ·rea do circulo È: %.2f", area);
+    printf("A circunferencia do circulo √©: %.2f \n", c);
+    printf("A √°rea do circulo √©: %.2f", area);
 
 }
 
@@ -93,10 +94,11 @@ int main()
      area = base * altura;
      perimetro = 2 * (base + altura);
 
-     printf("¡rea do retangulo = %.2f \n", area);
+     printf("√Årea do retangulo = %.2f \n", area);
 
      printf("Perimeto do retangulo = %.2f", perimetro);
 
      return 0;
 }
 */
+
